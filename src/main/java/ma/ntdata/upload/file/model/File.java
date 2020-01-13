@@ -1,5 +1,6 @@
 package ma.ntdata.upload.file.model;
 
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -20,6 +21,7 @@ public class File {
 	private String name;
 	
 	private String type;
+	
 	
 	private byte[] file;
 
